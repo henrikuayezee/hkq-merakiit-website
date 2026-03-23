@@ -141,8 +141,8 @@
             margin: 0 auto;
             padding: 0 20px;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
             align-items: center;
             position: relative;
             z-index: 2;
@@ -167,18 +167,21 @@
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 5vw, 3.5rem);
-            font-weight: 700;
-            color: var(--white);
+            font-size: clamp(3.5rem, 8vw, 5.5rem);
+            font-weight: 800;
+            line-height: 1.1;
             margin-bottom: 25px;
-            line-height: 1.2;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            color: var(--white);
         }
 
         .hero-description {
-            font-size: 22px;
-            color: rgba(255, 255, 255, 0.85);
-            margin-bottom: 35px;
-            line-height: 1.7;
+            font-size: 28px;
+            font-weight: 500;
+            color: var(--white);
+            margin-bottom: 40px;
+            line-height: 1.6;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
         }
 
         .hero .stat-number {
@@ -1015,7 +1018,7 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1>HKQ MeraKiiT<br>CONSULT</h1>
-                <p class="hero-subtitle" style="font-size: 16px; letter-spacing: 2px;">PASSIONATE IT CONSULTING | BESPOKE SOLUTIONS</p>
+                <p class="hero-subtitle" style="font-size: 18px; letter-spacing: 3px; padding: 10px 20px; display: inline-block;">PASSIONATE IT CONSULTING | BESPOKE SOLUTIONS</p>
                 <p class="hero-description">We eliminate technology frustrations for businesses and individuals with
                     comprehensive, tailored solutions designed around your specific needs.</p>
 
