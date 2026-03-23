@@ -183,7 +183,7 @@
         .hero .stat-number {
             color: var(--accent-color);
         }
-        
+
         .hero .stat-label {
             color: rgba(255, 255, 255, 0.7);
         }
@@ -324,7 +324,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .services::before {
             content: '';
             position: absolute;
@@ -339,7 +339,7 @@
         .services .section-title {
             color: var(--white);
         }
-        
+
         .services .section-description {
             color: rgba(255, 255, 255, 0.8);
         }
@@ -408,8 +408,11 @@
         .service-card::after {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(135deg, rgba(255,222,0,0.1) 0%, transparent 100%);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 222, 0, 0.1) 0%, transparent 100%);
             opacity: 0;
             transition: opacity 0.5s ease;
             z-index: -1;
@@ -424,13 +427,13 @@
         .service-card:hover::after {
             opacity: 1;
         }
-        
+
         .service-header {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
-        
+
         .service-icon {
             width: 60px;
             height: 60px;
@@ -506,7 +509,7 @@
             border-radius: 20px;
             position: relative;
             z-index: 2;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         }
 
         .experience-badge {
@@ -525,9 +528,17 @@
         }
 
         @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-15px); }
-            100% { transform: translateY(0px); }
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
         }
 
         .badge-num {
@@ -966,13 +977,16 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
-        .service-card, .feature-item, .contact-item {
+        .service-card,
+        .feature-item,
+        .contact-item {
             opacity: 0;
         }
     </style>
@@ -1184,24 +1198,24 @@
 
             <div class="stats-container">
                 <div class="stats-grid">
-                        <div class="stat-item">
-                            <span class="stat-number">100+</span>
-                            <span class="stat-label">Happy Clients</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Support Available</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">99%</span>
-                            <span class="stat-label">Success Rate</span>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support Available</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Success Rate</span>
                     </div>
                 </div>
-        </div>
+            </div>
     </section>
 
 
@@ -1335,7 +1349,7 @@
 
             <div class="footer-bottom">
                 <div class="copyright">
-                    <p>&copy; 2025 HKQ Meraki IT Consult. All rights reserved. | Technology Designed Around You.</p>
+                    <p>&copy; 2026 HKQ Meraki IT Consult. All rights reserved. | Technology Designed Around You.</p>
                 </div>
             </div>
         </div>
