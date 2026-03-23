@@ -634,76 +634,6 @@
             letter-spacing: 0.5px;
         }
 
-        /* Testimonials Section */
-        .testimonials {
-            padding: var(--section-spacing) 0;
-            background: linear-gradient(135deg, var(--light-gray) 0%, #E2E8F0 100%);
-            position: relative;
-        }
-
-        .testimonial-slider {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .testimonial-card {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 50px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-            position: relative;
-            border: 1px solid var(--border-color);
-            transition: transform 0.3s ease;
-        }
-
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-color);
-        }
-
-        .quote-icon {
-            font-size: 3rem;
-            color: rgba(255, 222, 0, 0.2);
-            position: absolute;
-            top: 40px;
-            left: 40px;
-        }
-
-        .testimonial-content p {
-            font-size: 1.2rem;
-            font-style: italic;
-            color: var(--text-primary);
-            line-height: 1.8;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 2;
-        }
-
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .author-avatar {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid var(--accent-color);
-        }
-
-        .author-info h4 {
-            color: var(--primary-color);
-            font-size: 1.1rem;
-            margin-bottom: 5px;
-        }
-
-        .author-info span {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
         /* Contact Section */
         .contact {
             padding: var(--section-spacing) 0;
@@ -1091,7 +1021,7 @@
                         <i class="fas fa-arrow-right"></i>
                         Start Your Project
                     </a>
-                    <a href="#services" class="cta-secondary">
+                    <a href="#services" class="cta-primary">
                         <i class="fas fa-play"></i>
                         Explore Services
                     </a>
@@ -1273,31 +1203,7 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Client Success Stories</p>
-                <h2 class="section-title">What They Say About Us</h2>
-            </div>
-            
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <i class="fas fa-quote-left quote-icon"></i>
-                        <p>"Meraki IT completely transformed our clunky, outdated systems into a seamless digital workflow. Their team is responsive, highly knowledgeable, and deeply passionate about finding the perfect solution. Outstanding service!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="assets/images/avatar.png" alt="Client Avatar" class="author-avatar" />
-                        <div class="author-info">
-                            <h4>Kwame Mensah</h4>
-                            <span>Operations Director, TechFlow GH</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
